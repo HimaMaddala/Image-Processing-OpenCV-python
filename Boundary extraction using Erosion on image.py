@@ -7,7 +7,7 @@ kernel=np.ones((3,3),np.uint8)
 img_erosion=cv2.erode(img,kernel,iterations=1)
 boundary_extracted=img-img_erosion
 
-cv2.imshow('Input',img)
+cv2.imshow('Input image',img)
 cv2.imshow('Erosion',img_erosion)
 cv2.imshow('Boundary ',boundary_extracted)
 cv2.waitKey(0)
