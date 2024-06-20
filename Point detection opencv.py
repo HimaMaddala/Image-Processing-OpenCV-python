@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("path\\virat.jpg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("image.jpg", cv2.IMREAD_GRAYSCALE)
 
 blurred = cv2.GaussianBlur(image, (3,3), 0)
 
